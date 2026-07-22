@@ -9,4 +9,3 @@ function sum(a,b){
     return a+b;
 }
 console.log(sum(5,10));
-//write a function taking number 0 to 9 and return in words using arrow function
