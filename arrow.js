@@ -15,6 +15,10 @@ const numberToWord = (num) =>{
         default: return "Invalid Number";
     }
 };
+const rollnum = "250320101000121";
+const digits = rollnum.split('').map(Number);
+const words = digits.map(numberToWord);
+console.log(words.join(' ')); // Output: Two Five Zero Three Two Zero One Zero One Zero Zero Zero One Two One
 
-let n = 4;
-console.log(numberToWord(n));
+
+
